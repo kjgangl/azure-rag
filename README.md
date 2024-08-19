@@ -7,9 +7,14 @@ a powerful grounding to applications that want to deliver customized generative 
 
 Use the `requirements.txt` to install all dependencies
 
-```bash
-python -m venv .venv
-./.venv/bin/pip install -r requirements.txt
+# ```bash
+# python -m venv .venv
+# ./.venv/bin/pip install -r requirements.txt
+
+'''powershell
+python3 -m venv .venv
+.venv\Scripts\activate
+.venv\Scripts\pip install -r requirements.txt
 ```
 
 ### Add your keys
